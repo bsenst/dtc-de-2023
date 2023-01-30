@@ -41,9 +41,9 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basi
 # week 6
 
 
-# week project
+# project week
 
-- [#] learn from project from students of former 2022 course 
+- [x] learn from project from students of former 2022 course 
 
 # additional tools
 
