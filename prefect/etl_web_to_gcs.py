@@ -6,12 +6,12 @@ from prefect import flow, task
 from prefect.tasks import task_input_hash
 from google.cloud import storage
 
-@task(log_prints=True, tags=["extract"], cache_key_fn=task_input_hash, cache_expiration=timedelta(days=1))
+@task(log_prints=True)
 def extract(url):
     df = pd.read_csv(url)
     return df
 
-@task(log_prints=True
+@task(log_prints=True)
 def transform(df):
     df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
     df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
