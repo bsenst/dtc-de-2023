@@ -13,9 +13,9 @@ def extract(url):
 
 @task(log_prints=True)
 def transform(df):
-    df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
-    df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
-    df = df[df['passenger_count'] != 0]
+    # df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
+    # df.lpep_dropoff_datetime = pd.to_datetime(df.lpep_dropoff_datetime)
+    # df = df[df['passenger_count'] != 0]
     return df
 
 @task
