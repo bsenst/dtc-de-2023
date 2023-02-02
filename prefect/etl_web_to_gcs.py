@@ -24,9 +24,9 @@ def load(df):
     bucket_name = "dtc-de-nyctaxi-bucket-20230131"
 
     bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob("green_tripdata_2020-01.csv.gz")
+    blob = bucket.blob("green_tripdata_2020-01.csv")
     
-    blob.upload_from_string(df.to_csv(compression="gzip"), 'text/csv')
+    blob.upload_from_string(df.to_csv(), 'text/csv')
 
 @flow
 def flow_taxi():
