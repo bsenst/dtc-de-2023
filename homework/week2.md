@@ -21,6 +21,7 @@ Make sure you have the parquet data files for Yellow taxi data for Feb. 2019 and
 
 	14,851,920
 
+
 	In [7]: feb.shape
 	Out[7]: (7019375, 19)
 	In [9]: mar.shape
@@ -34,8 +35,9 @@ How many rows were processed by the script?
 
 	88,605
 
-In [13]: nov.shape
-Out[13]: (88605, 20)
+
+	In [13]: nov.shape
+	Out[13]: (88605, 20)
 
 # Question 5. Email or Slack notifications
 
@@ -46,6 +48,7 @@ How many rows were processed by the script?
 
 	514,392
 
+
 	In [15]: apr.shape
 	Out[15]: (514392, 20)
 
@@ -54,6 +57,7 @@ How many rows were processed by the script?
 Prefect Secret blocks provide secure, encrypted storage in the database and obfuscation in the UI. Create a secret block in the UI that stores a fake 10-digit password to connect to a third-party service. Once you’ve created your block in the UI, how many characters are shown as asterisks (*) on the next page of the UI?
 
 	8
+
 
 	Aws Secret Access Key
 	********
