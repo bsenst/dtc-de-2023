@@ -28,8 +28,6 @@ def load(df):
     
     blob.upload_from_string(df.to_csv(), 'text/csv')
 
-schedule = IntervalSchedule(interval=timedelta(minutes=2))
-
 @flow
 def flow_taxi_to_gcs():
     df = extract("https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-02.csv.gz")
