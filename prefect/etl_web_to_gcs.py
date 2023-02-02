@@ -24,13 +24,13 @@ def load(df):
     bucket_name = "dtc-de-nyctaxi-bucket-20230131"
 
     bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob("yellow_tripdata_2019-02.csv")
+    blob = bucket.blob("yellow_tripdata_2019-03.csv")
     
     blob.upload_from_string(df.to_csv(), 'text/csv')
 
 @flow
 def flow_taxi_to_gcs():
-    df = extract("https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-02.csv.gz")
+    df = extract("https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-03.csv.gz")
     df_transformed = transform(df)
     load(df_transformed)
 
