@@ -1,5 +1,6 @@
 # https://stackoverflow.com/questions/73663848/gzip-a-file-in-python-before-uploading-to-cloud-storage
 
+import io
 import gzip
 import pandas as pd
 from prefect import flow, task
