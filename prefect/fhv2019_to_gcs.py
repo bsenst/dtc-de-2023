@@ -47,7 +47,7 @@ def load(file):
 
 @flow
 def flow_taxi_to_gcs():
-    for file in files:
+    for file in fhv_2019_files:
         load(file)
     print(record_count)
 
