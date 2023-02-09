@@ -23,7 +23,6 @@ fhv_2019_files = [
 ]
 
 root = "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/"
-record_count = 0
 
 @task(log_prints=True)
 def load(file):
@@ -38,8 +37,7 @@ def load(file):
     blob.content_type = 'application/csv'
     
     df = pd.read_csv(root+file)
-
-    record_count += len(df)
+    print(len(df))
 
     with io.StringIO() as buf:
         df.to_csv(buf, index=False)
