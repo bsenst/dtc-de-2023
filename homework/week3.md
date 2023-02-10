@@ -46,7 +46,7 @@ How many records have both a blank (null) PUlocationID and DOlocationID in the e
 ## Question 4:
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
 	
-	...
+	... 
 
 ## Question 5:
 
@@ -55,12 +55,12 @@ What is the best strategy to optimize the table if query always filter by pickup
 ## Question 6:
 Where is the data stored in the External Table you created?
 
-	...
+	GCP Bucket
 
 ## Question 7:
 It is best practice in Big Query to always cluster your data:
 
-	...
+	It is best practice in Big Query to always cluster your data.
 
 ## (Not required) Question 8:
 A better format to store these files may be parquet. Create a data pipeline to download the gzip files and convert them into parquet. Upload the files to your GCP Bucket and create an External and BQ Table.
