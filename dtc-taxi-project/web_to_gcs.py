@@ -46,7 +46,6 @@ def web_to_gcs(year, service):
         file_name = service + '_tripdata_' + year + '-' + month + '.csv'
 
         # download it using requests via a pandas df
-        # request_url = init_url + file_name
         request_url = init_url + service + "/" + file_name + ".gz"
         df = pd.read_csv(request_url)
         print(f"Local: {file_name}")
@@ -59,13 +58,14 @@ def web_to_gcs(year, service):
         # upload it to gcs 
         upload_to_gcs(BUCKET, f"{service}/{file_name}", file_name)
         print(f"GCS: {service}/{file_name}")
-
+        
+        # remove local parquet file
+        os.remove(file_name)
 
 web_to_gcs('2019', 'green')
 web_to_gcs('2020', 'green')
 web_to_gcs('2019', 'yellow')
 web_to_gcs('2020', 'yellow')
-
 web_to_gcs('2019', 'fhv')
 
 # DtypeWarning: Columns (3) have mixed types. Specify dtype option on import or set low_memory=False.
