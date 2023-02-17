@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dtc-de-nyctaxi-20230131.dtc_de_nyctaxi_dataset_20230131
+    description: description of external_fhv_tripdata
+    tables:
+      - name: external_fhv_tripdata
+        columns:
+          - name: dispatching_base_num
+            description: description  of dispatching_base_num
