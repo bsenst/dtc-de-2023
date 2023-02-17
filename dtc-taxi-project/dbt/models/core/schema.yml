@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: dtc-de-nyctaxi-20230131.dtc_de_nyctaxi_dataset_20230131
+  - name: dtc_de_nyctaxi_dataset_20230131
     tables:
       - name: external_fhv_tripdata
       - name: external_yellow_tripdata
