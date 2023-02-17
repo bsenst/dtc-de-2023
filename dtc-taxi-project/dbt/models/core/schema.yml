@@ -8,3 +8,6 @@ sources:
         columns:
           - name: dispatching_base_num
             description: description  of dispatching_base_num
+
+models:
+  - name: fact_fhv_trips
