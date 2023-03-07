@@ -3,24 +3,34 @@
 ## Problem statement
 * About FHIR
 * About Synthea
-* About Healthcare data: identify polypharmacy, diagnosing obesity, ...
+* About Healthcare data: identify polypharmacy among medication, diagnosing obesity from BMI, ...
+
+[include image showing overview of pipeline]()
 
 ## Google cloud implementation
 * Terraform
 
 ## Batch data ingestion
-* prefect
+* prefect 
+
+[ingestion script]()
 
 ## Data warehouse
 * BigQuery
 * Referred table
 * Partition & Clusters
 
+[include bq sql with partitioning and clustering]()
+
 ## Transformations
 * dbt
 
+[include dbt repo]()
+
 ## Dashboard
 * Looker
+
+[include link to looker dashboard]()
 
 ## Reproducibility
 * Clone the repo using the cloud shell.
