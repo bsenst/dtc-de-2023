@@ -30,7 +30,7 @@
 ## Dashboard
 * Looker
 
-[include link to looker dashboard]()
+[Explore Patient Report](https://lookerstudio.google.com/reporting/a22f12ec-7b4c-4ec5-bfdb-41be63140b39)
 
 ## Reproducibility
 * Clone the repo using the cloud shell.
