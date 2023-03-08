@@ -2,7 +2,7 @@
 
 ## Problem statement
 * About FHIR
-* About Synthea
+* About Synthea - work with health data and avoid privacy issues with synthetic data
 * About Healthcare data: identify polypharmacy among medication, diagnosing obesity from BMI, ...
 
 [include image showing overview of pipeline]()
@@ -10,17 +10,19 @@
 ## Google cloud implementation
 * Terraform
 
+[Create google cloud resources using terraform](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/terraform/terraform.tf)
+
 ## Batch data ingestion
 * prefect 
 
-[ingestion script]()
+[Data ingestion script with prefect](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/prefect/web_to_gcs.py)
 
 ## Data warehouse
 * BigQuery
 * Referred table
 * Partition & Clusters
 
-[include bq sql with partitioning and clustering]()
+[Load patient data to BigQuery Data Warehouse](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/bigquery/patients.sql)
 
 ## Transformations
 * dbt
