@@ -32,6 +32,8 @@
 
 [Explore Patient Report](https://lookerstudio.google.com/reporting/a22f12ec-7b4c-4ec5-bfdb-41be63140b39)
 
+![image](https://user-images.githubusercontent.com/8211411/223867127-2a8bcb6e-ca2f-45eb-9bc2-2e38d0f57638.png)
+
 ## Reproducibility
 * Clone the repo using the cloud shell.
 * Run terraform.
