@@ -24,7 +24,7 @@
 * Referred table
 * Partition & Clusters
 
-[Load patient data to BigQuery Data Warehouse](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/bigquery/patients.sql)
+[Load patient data to BigQuery Data Warehouse using SQL](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/bigquery/patients.sql)
 
 ## Transformations
 * dbt
