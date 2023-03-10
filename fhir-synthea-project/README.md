@@ -2,7 +2,7 @@
 This project is a contribution to the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) offered by the [DataTalksClub Community](https://datatalks.club). 
 
 ### Problem statement
-Health data is vast, diverse and complex. Even though extracting knowledge from health data promises advantages for healthcare service provision and medical advancement, barriers exist to implement the necessary technologies.
+Health data is vast, diverse and complex. Even though extracting knowledge from health data promises advantages for healthcare service provision and medical advancement, barriers exist to implement the necessary technologies. This project explores Synthea synthetic patient data. According to the DIKW pyramide data is refined to information and knowledge. The patient cohort shall be grouped by the presence of obesity. The information of obesity is diagnosed by the body mass index (BMI) and needs to be calculated from body weight and body height data. Finally correlating obesity to concomittant diseases gives us further knowledge on the problem of the metabolic syndrome.
 
 ### Background information
 
