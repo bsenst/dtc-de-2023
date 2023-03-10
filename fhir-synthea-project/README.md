@@ -17,7 +17,7 @@
 
 [Data ingestion script source to Bucket with prefect](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/prefect/web_to_gcs.py)
 
-[Data ingestion script Bucket to Warehouse with prefect](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/prefect/web_to_gcs.py)
+[Data ingestion script Bucket to Warehouse](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/prefect/web_to_gcs.py)
 
 ## Data warehouse
 * BigQuery
