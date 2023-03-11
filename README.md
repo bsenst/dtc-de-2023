@@ -64,8 +64,8 @@ https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basi
 
 ## kafka
 
-- [ ] https://www.credential.net/issuer/21429/credentials
-- [ ] https://training.confluent.io/channeldetail/apache-kafka-fundamentals-and-accreditation
+- [x] https://www.credential.net/issuer/21429/credentials
+- [x] https://training.confluent.io/channeldetail/apache-kafka-fundamentals-and-accreditation
 - [ ] https://training.confluent.io/channeldetail/developer--learning-path
 
 ## other resources
