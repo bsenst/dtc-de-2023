@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: synthea
+      database: fhir-project-20230308
+      schema: fhir_bq_dataset_20230803
+
+      tables:
+        - name: patients
+
+models:
+    - name: obesity_patients

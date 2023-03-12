@@ -1,1 +1,0 @@
-select * from `fhir-project-20230308.fhir_bq_dataset_20230803.observations` limit 5
