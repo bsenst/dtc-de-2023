@@ -1,0 +1,10 @@
+  
+default:  
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: fhir-project-20230308
+      dataset: dbt_bsenst
+      threads: 1
