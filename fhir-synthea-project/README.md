@@ -6,8 +6,11 @@ Health data is vast, diverse and complex. Even though extracting knowledge from 
 
 ### Background information
 
-* FHIR is the Fast Healthcare Interoperability Standard maintained by HL7. It is a syntactic standard to exchange healthcare information between systems.
-* SyntheaTM is an open-source, synthetic patient generator that models the medical history of synthetic patients.
+FHIR is the Fast Healthcare Interoperability Standard maintained by HL7. It is a syntactic standard to exchange healthcare information between systems.
+
+SyntheaTM is an open-source, synthetic patient generator that models the medical history of synthetic patients. 
+
+Jason Walonoski, Mark Kramer, Joseph Nichols, Andre Quina, Chris Moesel, Dylan Hall, Carlton Duffett, Kudakwashe Dube, Thomas Gallagher, Scott McLachlan, Synthea: An approach, method, and software mechanism for generating synthetic patients and the synthetic electronic health care record, Journal of the American Medical Informatics Association, Volume 25, Issue 3, March 2018, Pages 230–238, https://doi.org/10.1093/jamia/ocx079
 
 Lee, C. H., & Yoon, H. J. (2017). Medical big data: promise and challenges. Kidney research and clinical practice, 36(1), 3–11. https://doi.org/10.23876/j.krcp.2017.36.1.3
 
