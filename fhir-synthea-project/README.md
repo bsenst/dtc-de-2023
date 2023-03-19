@@ -36,15 +36,14 @@ Peek, N., Holmes, J. H., & Sun, J. (2014). Technical challenges for big data in 
 
 ### Data warehouse
 * BigQuery
-* Referred table
-* Partition & Clusters
+* Partition & Clusters (not used in this project)
 
-[Load patient data to BigQuery Data Warehouse using SQL](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/bigquery/patients.sql)
+[Alternative BigQuery SQL Command to load the patient data](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/bigquery/patients.sql)
 
 ### Transformations
 * dbt
 
-[dbt transformation workflow](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/dbt)
+[dbt transformation workflow to create obesity model](https://github.com/bsenst/dtc-de-2023/blob/main/fhir-synthea-project/dbt/models/obesity.sql)
 
 ### Dashboard
 * Looker
@@ -81,9 +80,9 @@ Set up connection to https://app.prefect.cloud/
   
   `cloudshell:~ (fhir-project-20230308)$ python3 fhir/gcs_to_bq.py`
 
-Set up https://cloud.getdbt.com/
+Set up https://cloud.getdbt.com/ and connect to BigQuery
 
-  `...`
+  `dbt run` to create obesity table in the Data Warehouse
 
 Visualize the data using https://lookerstudio.google.com/
 
